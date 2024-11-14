@@ -5,7 +5,7 @@ import { ADMIN } from "@/constants/constants";
 import { createClient } from "@/supabase/server";
 import { redirect } from "next/navigation";
 import { ReactNode } from "react";
-import { revalidatePath } from "next/cache";
+// import { revalidatePath } from "next/cache";
 
 // revalidatePath("/", "layout");
 
